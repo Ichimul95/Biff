@@ -164,6 +164,7 @@
     <Content Include="Content\Css\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\Biff_logo_profile.jpg" />
+    <Content Include="Content\Images\Biff_logo_profile_whiteCopy.png" />
     <Content Include="Content\Images\Biff_logo_profile_white.jpg" />
     <Content Include="Content\Images\Biff_logo_transparent.png" />
     <Content Include="Content\Images\logo2_welcome.png" />
