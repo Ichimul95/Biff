@@ -11,17 +11,17 @@
    @Scripts.Render("~/bundles/modernizr")
 </head>
 
-@{ Html.RenderPartial("_Header"); }
+
 <body>
+    @{ Html.RenderPartial("_Header"); }
 
+    @RenderBody()
 
-   @RenderBody()
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/plugins")
 
-   @Scripts.Render("~/bundles/jquery")
-   @Scripts.Render("~/bundles/bootstrap")
-   @Scripts.Render("~/bundles/plugins")
-
-   @RenderSection("scripts", required: false)
+    @RenderSection("scripts", required: false)
 
 </body>
 </html>

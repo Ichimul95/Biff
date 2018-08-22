@@ -20,7 +20,9 @@ namespace BiffFestival
                      "~/Scripts/modernizr-*"));
 
          bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                   "~/Scripts/bootstrap.js"
+                   "~/Scripts/bootstrap.js",
+                   "~/Scripts/flipclock.min.js",
+                   "~/Scripts/flipclock-custom.js"
                    ));
 
          bundles.Add(new ScriptBundle("~/bundles/plugins").Include(
@@ -37,7 +39,9 @@ namespace BiffFestival
          bundles.Add(new StyleBundle("~/Content/css").Include(
                    "~/Content/bootstrap.css",
                    "~/Content/Css/index.css",
-                   "~/Content/Css/docs.css"
+                   "~/Content/Css/docs.css",
+                    "~/Content/Css/flipclock.css"
+
             ));
       }
    }

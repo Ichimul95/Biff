@@ -160,13 +160,34 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Css\docs.css" />
+    <Content Include="Content\Css\flipclock.css" />
     <Content Include="Content\Css\Home.css" />
     <Content Include="Content\Css\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\BiffFirstPage.png" />
+    <Content Include="Content\Images\BiffLastPage.png" />
     <Content Include="Content\Images\Biff_logo_profile.jpg" />
+    <Content Include="Content\Images\Biff_logo_profile16x16.jpg" />
+    <Content Include="Content\Images\Biff_logo_profile50x50.jpg" />
     <Content Include="Content\Images\Biff_logo_profile_whiteCopy.png" />
     <Content Include="Content\Images\Biff_logo_profile_white.jpg" />
     <Content Include="Content\Images\Biff_logo_transparent.png" />
+    <Content Include="Content\Images\Icon\cls.png" />
+    <Content Include="Content\Images\Icon\divider.png" />
+    <Content Include="Content\Images\Icon\dividerBlack.png" />
+    <Content Include="Content\Images\Icon\divider_more.png" />
+    <Content Include="Content\Images\Icon\divider_more_text.png" />
+    <Content Include="Content\Images\Icon\divider_q.png" />
+    <Content Include="Content\Images\Icon\divider_tw.png" />
+    <Content Include="Content\Images\Icon\glyphicons-halflings-white.png" />
+    <Content Include="Content\Images\Icon\glyphicons-halflings.png" />
+    <Content Include="Content\Images\Icon\icon_set.png" />
+    <Content Include="Content\Images\Icon\icon_set_over.png" />
+    <Content Include="Content\Images\Icon\overlay.png" />
+    <Content Include="Content\Images\Icon\pattern.png" />
+    <Content Include="Content\Images\Icon\sicon-set-white.png" />
+    <Content Include="Content\Images\Icon\sicon-set.png" />
+    <Content Include="Content\Images\Icon\thumb_over.png" />
     <Content Include="Content\Images\logo2_welcome.png" />
     <Content Include="Content\Images\logo_welcome.png" />
     <Content Include="Content\Images\team01.jpg" />
@@ -201,6 +222,8 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\flipclock-custom.js" />
+    <Content Include="Scripts\flipclock.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -227,10 +250,10 @@
     <Content Include="Views\Home\_Banner.cshtml" />
     <Content Include="Views\Home\_About.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
+    <Content Include="Views\Home\_Countdown.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\Icon\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
