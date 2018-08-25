@@ -164,7 +164,7 @@
     <Content Include="Content\Css\Home.css" />
     <Content Include="Content\Css\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Images\BiffFirstPage.png" />
+    <Content Include="Content\Images\BiffBanner.png" />
     <Content Include="Content\Images\BiffLastPage.png" />
     <Content Include="Content\Images\Biff_logo_profile.jpg" />
     <Content Include="Content\Images\Biff_logo_profile16x16.jpg" />
@@ -181,15 +181,20 @@
     <Content Include="Content\Images\Icon\divider_tw.png" />
     <Content Include="Content\Images\Icon\glyphicons-halflings-white.png" />
     <Content Include="Content\Images\Icon\glyphicons-halflings.png" />
+    <Content Include="Content\Images\Icon\icon-set-over-three.png" />
+    <Content Include="Content\Images\Icon\icon-set-three.png" />
     <Content Include="Content\Images\Icon\icon_set.png" />
     <Content Include="Content\Images\Icon\icon_set_over.png" />
     <Content Include="Content\Images\Icon\overlay.png" />
     <Content Include="Content\Images\Icon\pattern.png" />
+    <Content Include="Content\Images\Icon\sicon-set-three.png" />
+    <Content Include="Content\Images\Icon\sicon-set-white-three.png" />
     <Content Include="Content\Images\Icon\sicon-set-white.png" />
     <Content Include="Content\Images\Icon\sicon-set.png" />
     <Content Include="Content\Images\Icon\thumb_over.png" />
     <Content Include="Content\Images\logo2_welcome.png" />
     <Content Include="Content\Images\logo_welcome.png" />
+    <Content Include="Content\Images\PIATRA-CRAIULUI-1-2Web2.jpg" />
     <Content Include="Content\Images\team01.jpg" />
     <Content Include="Content\Images\team02.jpg" />
     <Content Include="Content\Images\team03.jpg" />
@@ -234,6 +239,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\parallax.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

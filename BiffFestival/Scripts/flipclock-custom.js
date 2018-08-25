@@ -1,20 +1,12 @@
 ﻿var clock;
 
 $(document).ready(function () {
-    var clock;
+    var date = new Date(2018, 8, 22);
+    var now = new Date();
 
-    clock = $('.clock').FlipClock({
+    var clock = $('.clock').FlipClock(date, {
         clockFace: 'DailyCounter',
-        autoStart: false,
-        callbacks: {
-            stop: function () {
-                $('.message').html('The clock has stopped!')
-            }
-        }
+        countdown: true
     });
-
-    clock.setTime(220880);
-    clock.setCountdown(true);
-    clock.start();
 
 });

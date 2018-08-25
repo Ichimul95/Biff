@@ -22,7 +22,8 @@ namespace BiffFestival
          bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                    "~/Scripts/bootstrap.js",
                    "~/Scripts/flipclock.min.js",
-                   "~/Scripts/flipclock-custom.js"
+                   "~/Scripts/flipclock-custom.js",
+                   "~/Scripts/parallax.min.js"
                    ));
 
          bundles.Add(new ScriptBundle("~/bundles/plugins").Include(
