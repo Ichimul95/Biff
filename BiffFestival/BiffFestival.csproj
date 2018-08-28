@@ -166,7 +166,9 @@
     <Content Include="Content\Css\Home.css" />
     <Content Include="Content\Css\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\AdelaIonescu.jpg" />
     <Content Include="Content\Images\BiffBanner.png" />
+    <Content Include="Content\Images\BiffFirstPage.png" />
     <Content Include="Content\Images\BiffLastPage.png" />
     <Content Include="Content\Images\Biff_logo_profile.jpg" />
     <Content Include="Content\Images\Biff_logo_profile16x16.jpg" />
@@ -174,6 +176,8 @@
     <Content Include="Content\Images\Biff_logo_profile_whiteCopy.png" />
     <Content Include="Content\Images\Biff_logo_profile_white.jpg" />
     <Content Include="Content\Images\Biff_logo_transparent.png" />
+    <Content Include="Content\Images\GRACE-HEADSHOTS960.jpg" />
+    <Content Include="Content\Images\HORIA-HEADSHOT960.jpg" />
     <Content Include="Content\Images\Icon\cls.png" />
     <Content Include="Content\Images\Icon\divider.png" />
     <Content Include="Content\Images\Icon\dividerBlack.png" />
@@ -198,6 +202,7 @@
     <Content Include="Content\Images\logo_welcome.png" />
     <Content Include="Content\Images\PIATRA-CRAIULUI-1-2Web2.jpg" />
     <Content Include="Content\Images\PIATRA-CRAIULUI-1Web.jpg" />
+    <Content Include="Content\Images\Rares-Achiriloaie960.jpg" />
     <Content Include="Content\Images\team01.jpg" />
     <Content Include="Content\Images\team02.jpg" />
     <Content Include="Content\Images\team03.jpg" />
