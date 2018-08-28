@@ -10,15 +10,49 @@
 /*
     WELCOME PAGE
 */
-.container-banner{
-    float:left;
-    margin-top:370px;
+/*.page-welcome #welcome-messages {
+    margin-top: 300px;
+}*/
 
+.container-banner {
+    float: left;
+    margin-top: 300px;
+    text-align: left;
+}
+
+h3.grey-title {
+    color: rgb(51,51,52);
+    font-size: 20px;
+    text-align: center;
+    /*width:800px;*/
+    line-height: 30px !important;
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 460px) {
+
+    h3.grey-title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h3.grey-title {
+        width: 100%
+    }
+
+    .container-banner {
+        margin-top: 100px;
+    }
+
+    .page-welcome #welcome-messages {
+        margin-top: 0 !important;
+    }
 }
 
 @media screen and (max-width: 1770px) {
     .container-banner {
-        text-size-adjust:100%;
+        text-size-adjust: 100%;
     }
 }
 
@@ -27,6 +61,7 @@
     text-align: left;
     font-size: 15px !important;
 }
+
 .festival-background-image {
     width: 100%;
     height: 100%;
@@ -85,13 +120,11 @@
     margin-top: 10px !important;
 }
 
-.mb-50{
-    margin-bottom:50px;
+.mb-50 {
+    margin-bottom: 50px;
 }
 
-h3.grey-title {
-    color: rgb(51,51,52);
-}
+
 
 h4.white-title {
     color: #fff;
@@ -8334,7 +8367,6 @@ button.close {
         }
 
     .page-welcome #welcome-messages {
-        margin-top: 35px;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -8519,6 +8551,7 @@ button.close {
     margin-top: 80px;
     margin-bottom: 100px;
 }
+
 .page-features {
     position: relative;
     background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
@@ -8575,7 +8608,6 @@ button.close {
     display: inline-block;
     color: #fff;
     overflow: hidden;
-
 }
 
     .page-about .about-items .item:hover .about-overlay {
