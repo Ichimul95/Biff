@@ -148,6 +148,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FestivalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -195,6 +196,7 @@
     <Content Include="Content\Images\logo2_welcome.png" />
     <Content Include="Content\Images\logo_welcome.png" />
     <Content Include="Content\Images\PIATRA-CRAIULUI-1-2Web2.jpg" />
+    <Content Include="Content\Images\PIATRA-CRAIULUI-1Web.jpg" />
     <Content Include="Content\Images\team01.jpg" />
     <Content Include="Content\Images\team02.jpg" />
     <Content Include="Content\Images\team03.jpg" />
@@ -255,8 +257,9 @@
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Home\_Banner.cshtml" />
     <Content Include="Views\Home\_About.cshtml" />
-    <Content Include="Views\Home\_Contact.cshtml" />
+    <Content Include="Views\Shared\_Contact.cshtml" />
     <Content Include="Views\Home\_Countdown.cshtml" />
+    <Content Include="Views\Festival\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
