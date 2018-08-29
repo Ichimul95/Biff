@@ -15,10 +15,10 @@ namespace BiffFestival
 #endif
 
 
-         bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+         bundles.Add(new ScriptBundle("~/bundles/mainjquery").Include(
                      "~/Scripts/jquery-{version}.js"));
 
-         bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
+         bundles.Add(new ScriptBundle("~/bundles/mainjqueryval").Include(
                      "~/Scripts/jquery.validate*"));
 
          // Use the development version of Modernizr to develop with and learn from. Then, when you're
@@ -26,14 +26,14 @@ namespace BiffFestival
          bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                      "~/Scripts/modernizr-*"));
 
-         bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+         bundles.Add(new ScriptBundle("~/bundles/mainbootstrap").Include(
                    "~/Scripts/bootstrap.js",
                    "~/Scripts/flipclock.min.js",
                    "~/Scripts/flipclock-custom.js",
                    "~/Scripts/parallax.min.js"
                    ));
 
-         bundles.Add(new ScriptBundle("~/bundles/plugins").Include(
+         bundles.Add(new ScriptBundle("~/bundles/mainplugins").Include(
             "~/Content/Plugins/jquery.bxslider.js",
             "~/Content/Plugins/jquery.centralized.js",
             "~/Content/Plugins/jquery.nav.js",
@@ -44,7 +44,7 @@ namespace BiffFestival
             "~/Content/Plugins/jquery.tweetCarousel.js"
          ));
 
-         bundles.Add(new StyleBundle("~/Content/css").Include(
+         bundles.Add(new StyleBundle("~/bundles/maincss").Include(
                    "~/Content/bootstrap.css",
                    "~/Content/Css/index.css",
                    "~/Content/Css/docs.css",

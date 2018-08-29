@@ -8321,7 +8321,7 @@ button.close {
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: #292929 url(../images/BiffFirstPage.png) 0 no-repeat fixed;
+    background: #292929 url(../Content/images/BiffFirstPage.png) 0 no-repeat fixed;
     background-position: right;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -9348,18 +9348,18 @@ footer {
     height: 25px;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../images/Icon/sicon-set-three.png");
+    background-image: url("../Content/images/Icon/sicon-set-three.png");
     background-repeat: no-repeat;
     text-indent: -99999px;
     text-align: center;
 }
 
 .sicon-white i {
-    background-image: url("../images/Icon/sicon-set-white-three.png");
+    background-image: url("../Content/images/Icon/sicon-set-white-three.png");
 }
 
 .sicon-black i {
-    background-image: url("../images/Icon/sicon-set-three.png");
+    background-image: url("../Content/images/Icon/sicon-set-three.png");
 }
 /*
 *   Social icons configuration
@@ -9424,7 +9424,7 @@ footer {
         }
 
             .social-icons.bordered a:hover i {
-                background-image: url("../images/Icon/sicon-set-three.png");
+                background-image: url("../Content/images/Icon/sicon-set-three.png");
             }
 
 .social-icons.bordered-black {
@@ -9441,7 +9441,7 @@ footer {
         }
 
             .social-icons.bordered-black a:hover i {
-                background-image: url("../images/Icon/sicon-set-white-three.png");
+                background-image: url("../Content/images/Icon/sicon-set-white-three.png");
             }
 /*
 *   Big social icons with hover background
@@ -9462,7 +9462,7 @@ footer {
 }
 
 .social-icons.hover-big a:hover i {
-    background-image: url("../images/Icon/sicon-set-white-three.png");
+    background-image: url("../Content/images/Icon/sicon-set-white-three.png");
 }
 
 .social-icons.hover-big .sicon-facebook:hover {

@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <title>@ViewBag.Title - Biff Festival</title>
-    @Styles.Render("~/Content/css")
+    @Styles.Render("~/bundles/maincss")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 
@@ -18,9 +18,9 @@
 
     @RenderBody()
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/plugins")
+    @Scripts.Render("~/bundles/mainjquery")
+    @Scripts.Render("~/bundles/mainbootstrap")
+    @Scripts.Render("~/bundles/mainplugins")
 
     @RenderSection("scripts", required: false)
     @{ Html.RenderPartial("_Contact"); }
