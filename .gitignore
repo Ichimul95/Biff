@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/BiffFestival/Properties/PublishProfiles/brasovindependentfilmfestival.com - Web Deploy.pubxml
+/BiffFestival/Properties/PublishProfiles/brasovindependentfilmfestival.com - Web Deploy1.pubxml
+/BiffFestival/Properties/PublishProfiles/brasovindependentfilmfestival.com - Web Deploy2.pubxml
+/BiffFestival/Properties/PublishProfiles/CustomProfile.pubxml
