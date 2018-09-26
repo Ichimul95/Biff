@@ -169,6 +169,7 @@
     <Content Include="Content\Images\AdelaIonescu.jpg" />
     <Content Include="Content\Images\BiffBanner.png" />
     <Content Include="Content\Images\BiffFirstPage.png" />
+    <Content Include="Content\Images\BiffFirstPageCrop.png" />
     <Content Include="Content\Images\BiffLastPage.png" />
     <Content Include="Content\Images\Biff_logo_profile.jpg" />
     <Content Include="Content\Images\Biff_logo_profile16x16.jpg" />
@@ -176,6 +177,7 @@
     <Content Include="Content\Images\Biff_logo_profile_whiteCopy.png" />
     <Content Include="Content\Images\Biff_logo_profile_white.jpg" />
     <Content Include="Content\Images\Biff_logo_transparent.png" />
+    <Content Include="Content\Images\georgeApostu.jpg" />
     <Content Include="Content\Images\GRACE-HEADSHOTS960.jpg" />
     <Content Include="Content\Images\HORIA-HEADSHOT960.jpg" />
     <Content Include="Content\Images\Icon\cls.png" />
