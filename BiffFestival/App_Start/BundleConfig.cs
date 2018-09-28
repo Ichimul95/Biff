@@ -34,14 +34,7 @@ namespace BiffFestival
                    ));
 
          bundles.Add(new ScriptBundle("~/bundles/mainplugins").Include(
-            "~/Content/Plugins/jquery.bxslider.js",
-            "~/Content/Plugins/jquery.centralized.js",
-            "~/Content/Plugins/jquery.nav.js",
-            "~/Content/Plugins/jquery.parallax-1.1.3.js",
-            "~/Content/Plugins/jquery.fixedonlater.js",
-            "~/Content/Plugins/jquery.mixitup.js",
-            "~/Content/Plugins/jquery.fixedonlater.js",
-            "~/Content/Plugins/jquery.tweetCarousel.js"
+            "~/Content/Plugins/jquery.parallax-1.1.3.js"
          ));
 
          bundles.Add(new StyleBundle("~/bundles/maincss").Include(

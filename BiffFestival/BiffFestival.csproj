@@ -150,6 +150,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\FestivalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InvitationController.cs" />
     <Compile Include="Controllers\SubmissionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -163,7 +164,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Css\docs.css" />
     <Content Include="Content\Css\flipclock.css" />
-    <Content Include="Content\Css\Home.css" />
     <Content Include="Content\Css\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\AdelaIonescu.jpg" />
@@ -214,17 +214,7 @@
     <Content Include="Content\Images\team07.jpg" />
     <Content Include="Content\Images\team08.jpg" />
     <Content Include="Content\Images\yellow.jpg" />
-    <Content Include="Content\Plugins\jquery.bxslider.js" />
-    <Content Include="Content\Plugins\jquery.centralized.js" />
-    <Content Include="Content\Plugins\jquery.fixedonlater.js" />
-    <Content Include="Content\Plugins\jquery.hashloader.js" />
-    <Content Include="Content\Plugins\jquery.mixitup.js" />
-    <Content Include="Content\Plugins\jquery.nav.js" />
     <Content Include="Content\Plugins\jquery.parallax-1.1.3.js" />
-    <Content Include="Content\Plugins\jquery.responsivevideos.js" />
-    <Content Include="Content\Plugins\jquery.scrollTo-1.4.3.1.js" />
-    <Content Include="Content\Plugins\jquery.tweet.js" />
-    <Content Include="Content\Plugins\jquery.tweetCarousel.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -269,6 +259,7 @@
     <Content Include="Views\Home\_Countdown.cshtml" />
     <Content Include="Views\Festival\Index.cshtml" />
     <Content Include="Views\Submission\Index.cshtml" />
+    <Content Include="Views\Invitation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
