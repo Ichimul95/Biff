@@ -167,6 +167,7 @@
     <Content Include="Content\Css\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\AdelaIonescu.jpg" />
+    <Content Include="Content\Images\biifPoster.jpg" />
     <Content Include="Content\Images\BiffBanner.png" />
     <Content Include="Content\Images\BiffFirstPage.png" />
     <Content Include="Content\Images\BiffFirstPageCrop.png" />

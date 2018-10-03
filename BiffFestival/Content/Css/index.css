@@ -8327,7 +8327,7 @@ button.close {
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: #292929 url(../Content/images/BiffFirstPageCrop.png) 0 no-repeat fixed;
+    background: #292929 url(../Content/images/biifPoster.jpg) 0 no-repeat fixed;
     background-position: right;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
