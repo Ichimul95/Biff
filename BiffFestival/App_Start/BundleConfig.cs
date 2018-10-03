@@ -30,18 +30,21 @@ namespace BiffFestival
                    "~/Scripts/bootstrap.js",
                    "~/Scripts/flipclock.min.js",
                    "~/Scripts/flipclock-custom.js",
-                   "~/Scripts/parallax.min.js"
+                   "~/Scripts/parallax.min.js",
+                   "~/Scripts/carousel-custom.js"
                    ));
 
          bundles.Add(new ScriptBundle("~/bundles/mainplugins").Include(
-            "~/Content/Plugins/jquery.parallax-1.1.3.js"
+            "~/Content/Plugins/jquery.parallax-1.1.3.js",
+            "~/Content/Plugins/carousel-partners.js"
          ));
 
          bundles.Add(new StyleBundle("~/bundles/maincss").Include(
                    "~/Content/bootstrap.css",
                    "~/Content/Css/index.css",
                    "~/Content/Css/docs.css",
-                    "~/Content/Css/flipclock.css"
+                    "~/Content/Css/flipclock.css",
+                    "~/Content/Css/carousel-partners.css"
 
             ));
       }
