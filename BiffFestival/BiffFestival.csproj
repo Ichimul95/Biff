@@ -170,6 +170,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\AdelaIonescu.jpg" />
     <Content Include="Content\Images\AnaGoga.jpg" />
+    <Content Include="Content\Images\biffLogoContact.png" />
     <Content Include="Content\Images\BIFFPOSTER%404x-100_1330.jpg" />
     <Content Include="Content\Images\biifPoster.jpg" />
     <Content Include="Content\Images\BiffBanner.png" />
@@ -283,7 +284,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\KeepAlive\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
