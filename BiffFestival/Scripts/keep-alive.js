@@ -1,16 +1,17 @@
 ﻿$(document).ready(function () {
-    var keepAlive = {
-        refresh: function () {
-            $.ajax({
-                url: '/KeepAlive/Index',
-                type: 'Get',
-                success: function () {
-                    setTimeout(keepAlive.refresh, 1000000);
-                },
-                error: function () {
-                    setTimeout(keepAlive.refresh, 1000000);
-                }
-            });
-        }
-    };
+    function setHeartbeat() {
+        setTimeout("heartbeat()", 300000); // every 5 min
+    }
+
+    function heartbeat() {
+        $.get(
+            "/SessionHeartbeat.ashx",
+            null,
+            function (data) {
+                $("#heartbeat").show().fadeOut(1000); // just a little "red flash" in the corner :)
+                setHeartbeat();
+            },
+            "json"
+        );
+    }
 });
