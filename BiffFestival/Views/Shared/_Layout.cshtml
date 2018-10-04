@@ -14,6 +14,11 @@
 <link rel="icon" type="image/png" href="~/Content/Images/Biff_logo_profile16x16.jpg" />
 
 <body>
+
+    <script type="text/javascript">
+    // initialize Session Updater on page
+    SessionUpdater.Setup('@Url.Action("KeepSessionAlive","Home")');
+    </script>
     @{ Html.RenderPartial("_Header"); }
 
     @RenderBody()

@@ -12,5 +12,10 @@ namespace BiffFestival.Controllers
       {
          return View();
       }
+      [HttpPost]
+      public JsonResult KeepSessionAlive()
+      {
+         return new JsonResult { Data = "Success" };
+      }
    }
 }
