@@ -31,7 +31,8 @@ namespace BiffFestival
                    "~/Scripts/flipclock.min.js",
                    "~/Scripts/flipclock-custom.js",
                    "~/Scripts/parallax.min.js",
-                   "~/Scripts/carousel-custom.js"
+                   "~/Scripts/carousel-custom.js",
+                   "~/Scripts/keep-alive.js"
                    ));
 
          bundles.Add(new ScriptBundle("~/bundles/mainplugins").Include(

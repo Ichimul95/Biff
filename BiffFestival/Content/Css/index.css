@@ -8327,8 +8327,7 @@ button.close {
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: #292929 url(../Content/images/BIFFPOSTER@4x-100_1330.jpg) 0 no-repeat fixed;
-    background-position: right;
+    background: #292929 url(../Content/images/Poster1400.jpg) 0 10px no-repeat fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8636,7 +8635,7 @@ button.close {
     .page-about .about-items #flexiselDemo2 .item:hover .about-overlay {
         opacity: 95;
         filter: alpha(opacity=9500);
-        left: 0;
+        /*left: 0;*/
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
@@ -8647,7 +8646,6 @@ button.close {
     width: 100%;
     height: 100%;
     top: 0;
-    left: -100%;
     position: absolute;
     display: block;
     z-index: 4;
@@ -8982,8 +8980,6 @@ button.close {
 */
 .page-contact {
     position: relative;
-    padding-bottom: 50px;
-    /*margin-top:500px;*/
 }
 
     .page-contact .container {

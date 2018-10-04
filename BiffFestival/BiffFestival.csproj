@@ -151,6 +151,7 @@
     <Compile Include="Controllers\FestivalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InvitationController.cs" />
+    <Compile Include="Controllers\KeepAliveController.cs" />
     <Compile Include="Controllers\SubmissionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -214,6 +215,7 @@
     <Content Include="Content\Images\o380x80.png" />
     <Content Include="Content\Images\PIATRA-CRAIULUI-1-2Web2.jpg" />
     <Content Include="Content\Images\PIATRA-CRAIULUI-1Web.jpg" />
+    <Content Include="Content\Images\Poster1400.jpg" />
     <Content Include="Content\Images\Rares-Achiriloaie960.jpg" />
     <Content Include="Content\Images\RobertStefan.jpg" />
     <Content Include="Content\Images\smashRoom.jpg" />
@@ -253,6 +255,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\keep-alive.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\parallax.min.js" />
     <Content Include="Web.config" />
@@ -280,6 +283,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\KeepAlive\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

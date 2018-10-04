@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#flexiselDemo1").flexisel();
     $("#flexiselDemo2").flexisel({
         visibleItems: 4,
-        itemsToScroll: 3,
+        itemsToScroll: 4,
         animationSpeed: 200,
         infinite: true,
         navigationTargetSelector: null,
